@@ -2,21 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4663a67-8b55-4577-a3fa-bf983d98b264" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../app/Traits/Reviewable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Category.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Course.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Kyc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Lga.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Option.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Post.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Price.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Question.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Result.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Review.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Role.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/State.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/../config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config/lucid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/vendor/lucid/css/fonts/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/vendor/lucid/css/lib/material.font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/vendor/lucid/css/lib/material.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/vendor/lucid/css/lib/material.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/vendor/lucid/css/lib/mui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/vendor/lucid/css/lib/prism.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/vendor/lucid/css/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/vendor/lucid/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/vendor/lucid/images/lucid-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/vendor/lucid/js/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/vendor/lucid/js/domains.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/vendor/lucid/js/lib/material.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/vendor/lucid/js/lib/material.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/vendor/lucid/js/lib/mui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/vendor/lucid/js/lib/prism.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/vendor/lucid/js/lib/vue-resource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/vendor/lucid/js/lib/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/vendor/lucid/js/logs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/vendor/lucid/js/mixins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/vendor/lucid/js/services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/vendor/lucid/js/stores.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/Models/Category.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/../app/Models/Role.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -96,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/../app/Models/Lga.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -104,8 +112,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../app/Models/Course.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+            <state relative-caret-position="133">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -350,17 +358,18 @@
       <option name="presentableId" value="Default" />
       <updated>1552988950298</updated>
       <workItem from="1552988969018" duration="4678000" />
-      <workItem from="1553068348691" duration="584000" />
+      <workItem from="1553068348691" duration="966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5262000" />
+    <option name="totallyTimeSpent" value="5644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22844176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -502,7 +511,7 @@
     <entry file="file://$PROJECT_DIR$/../app/Models/Role.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -551,7 +560,7 @@
     <entry file="file://$PROJECT_DIR$/../app/Models/Lga.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -564,8 +573,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../app/Models/Course.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        <state relative-caret-position="133">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
