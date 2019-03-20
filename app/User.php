@@ -26,4 +26,45 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public function state()
+    {
+        return $this->belongsTo(State::class);
+    }
+
+    public function lga()
+    {
+        return $this->belongsTo(Lga::class);
+    }
+
+    public function reviewed()
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function reviews()
+    {
+        return $this->hasMany(Review::class, 'tutor_id');
+    }
+
+    public function posts()
+    {
+        return $this->hasMany(Post::class);
+    }
+
+    public function price()
+    {
+        return $this->hasOne(Price::class, 'tutor_id');
+    }
+
+    public function kyc(){
+        return $this->hasOne(Kyc::class,'tutor_id');
+    }
+
+    public function result(){
+        return $this->hasOne(Result::class,'tutor_id');
+    }
+
+    
 }
+
