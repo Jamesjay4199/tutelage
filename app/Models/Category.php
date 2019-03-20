@@ -1,10 +1,10 @@
 <?php
 
-namespace Framework;
+namespace Framework\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Result extends Model
+class Category extends Model
 {
     //
 }
